@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .suggestion-box::-webkit-scrollbar {
+        width: .4em;
+    }
+
+    .suggestion-box::-webkit-scrollbar-track {
+        border-radius: 100vw;
+        margin-block: .5em;
+    }
+
+    .suggestion-box::-webkit-scrollbar-thumb {
+        border-radius: 100vw;
+        background: #e6e6e6
+    }
+}
