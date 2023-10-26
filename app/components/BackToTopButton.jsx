@@ -25,7 +25,7 @@ const BackToTopButton = () => {
 
   return (
     <button
-      className="fixed bottom-3 right-3 bg-white h-11 w-11 rounded-full shadow-md items-center justify-center z-10 dark:bg-[#2b3945]"
+      className="fixed bottom-3 right-3 bg-white h-11 w-11 rounded-full shadow-md items-center justify-center z-10 dark:bg-[#202c37]"
       style={{ display: visible ? "flex" : "none" }}
       onClick={scrollToTop}
     >

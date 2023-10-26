@@ -46,7 +46,7 @@ const BorderCountries = ({ borderCountries }) => {
             href={`/countries/${getBorderName(b)}`}
             className="mx-1 mb-2"
           >
-            <span className="font-normal px-2 py-1 text-center rounded-sm shadow-md">
+            <span className="font-normal px-2 py-1 text-center rounded-sm shadow-md dark:bg-[#2b3945]">
               {getBorderName(b)}
             </span>
           </Link>

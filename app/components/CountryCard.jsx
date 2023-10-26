@@ -5,7 +5,7 @@ export default function CountryCard({ country }) {
   return (
     <Link
       href={`countries/${country.name.common}`}
-      className="w-[80%] h-80 rounded-[5px] shadow-md cursor-pointer hover:scale-105 transition ease-out duration-300 md:w-[16.5rem] dark:bg-[#2b3945]"
+      className="w-[80%] max-w-[260.8px] h-80 rounded-[5px] shadow-md cursor-pointer hover:scale-105 transition ease-out duration-300 md:w-[16.5rem] md:max-w-[262px] dark:bg-[#2b3945]"
     >
       <div className="relative h-1/2">
         <Image

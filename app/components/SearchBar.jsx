@@ -30,9 +30,9 @@ export default function SearchBar({ countries }) {
   };
 
   return (
-    <div className="md:w-80 w-full bg-white relative dark:bg-[#2b3945]">
+    <div className="md:w-80 w-full bg-white relative dark:bg-[#202c37]">
       <form
-        className="w-full flex items-center h-10 bg-inherit px-3 mt-5 rounded-md shadow-md"
+        className="w-full flex items-center h-10 bg-inherit px-3 mt-5 rounded-md shadow-md dark:bg-[#2b3945]"
         onSubmit={handleSubmit}
       >
         <BiSearchAlt2 className="mr-3" />

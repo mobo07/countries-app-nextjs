@@ -19,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={nunito.className}>
-      <body className="relative dark:text-[#ffffff] dark:bg-[#2b3945]">
+      <body className="relative dark:text-[#ffffff] dark:bg-[#202c37]">
         <ScrollToTop>
           <ReactQueryProvider>
             <BorderContextProvider>

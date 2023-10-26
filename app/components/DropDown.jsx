@@ -8,8 +8,8 @@ export default function DropDown({ title }) {
   const [showDropDown, setShowDropDown] = useState(false);
 
   return (
-    <div className="md:w-48 w-2/3 max-w-3xl text-sm font-semibold bg-white relative dark:bg-[#2b3945]">
-      <span className="w-full text-sm flex items-center justify-between h-10 px-3 mt-7 rounded-sm shadow-md">
+    <div className="md:w-48 w-2/3 max-w-3xl text-sm font-semibold bg-white mt-7 relative dark:bg-[#2b3945]">
+      <span className="w-full text-sm flex items-center justify-between h-10 px-3 rounded-sm shadow-md">
         {title}
         <IoIosArrowDown
           className="cursor-pointer"

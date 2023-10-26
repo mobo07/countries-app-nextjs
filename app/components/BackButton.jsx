@@ -12,7 +12,7 @@ export default function BackButton() {
 
   return (
     <button
-      className="w-20 mb-5 px-3 py-1 text-xs flex items-center justify-center rounded-sm shadow-md"
+      className="w-20 mb-5 px-3 py-1 text-xs flex items-center justify-center rounded-sm shadow-md dark:bg-[#2b3945]"
       onClick={handleClick}
     >
       <AiOutlineArrowLeft className="mr-3" />
